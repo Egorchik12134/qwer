@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ссылки — a.egor.bb</title>
+  <meta name="description" content="Мои ссылки: Instagram a.egor.bb">
+  <meta property="og:title" content="a.egor.bb — ссылки">
+  <meta property="og:description" content="Instagram: @a.egor.bb">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#000000">
+  <style>
+    /* Reset */
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+      background: radial-gradient(1200px 800px at 80% -10%, rgba(255,189,89,0.35), transparent 60%),
+                  radial-gradient(1200px 800px at 10% 110%, rgba(131,58,180,0.35), transparent 60%),
+                  #0f0f12;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      width: 100%;
+      max-width: 520px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      backdrop-filter: blur(6px);
+      padding: 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    .avatar {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #833ab4, #fd1d1d 40%, #fcb045);
+      padding: 3px;
+      display: inline-block;
+    }
+    .avatar > div {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: #0f0f12;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    h1 {
+      font-size: 22px;
+      margin: 16px 0 8px;
+      line-height: 1.2;
+    }
+    p.sub {
+      margin: 0 0 18px;
+      color: #c9c9d1;
+      font-size: 14px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+      padding: 14px 16px;
+      border-radius: 12px;
+      margin: 10px 0;
+      font-weight: 600;
+      border: 1px solid transparent;
+      transition: transform .06s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn:active { transform: translateY(0); }
+    .btn-ig {
+      background: linear-gradient(135deg, #833ab4, #fd1d1d 40%, #fcb045);
+      color: #fff;
+      box-shadow: 0 6px 14px rgba(253,29,29,0.35);
+    }
+    .btn-ig:focus, .btn-ig:hover {
+      box-shadow: 0 8px 18px rgba(253,29,29,0.45);
+    }
+    .btn-tg {
+      background: rgba(0, 136, 204, 0.12);
+      border-color: rgba(0, 136, 204, 0.35);
+      color: #d8f0ff;
+    }
+    .footer {
+      margin-top: 16px;
+      font-size: 12px;
+      color: #a8a8b3;
+      text-align: center;
+    }
+    .footer a { color: #d8f0ff; text-decoration: none; border-bottom: 1px dashed rgba(216,240,255,0.6); }
+    .footer a:hover { border-bottom-color: transparent; }
+  </style>
+</head>
+<body>
+  <main class="card" role="main" aria-label="Ссылки">
+    <div class="avatar" aria-hidden="true">
+      <div>EG</div>
+    </div>
+    <h1>@a.egor.bb</h1>
+    <p class="sub">Мои ссылки</p>
+
+    <a class="btn btn-ig" href="https://www.instagram.com/a.egor.bb" target="_blank" rel="noopener">Открыть Instagram</a>
+
+    <!-- Раскомментируйте и укажите свой Telegram-юзернейм, чтобы добавить кнопку Telegram
+    <a class="btn btn-tg" href="https://t.me/ВАШ_ТЕЛЕГРАМ" target="_blank" rel="noopener">Написать в Telegram</a>
+    -->
+
+    <div class="footer">
+      <span>Сделано для a.egor.bb · ©</span>
+    </div>
+  </main>
+</body>
+</html>
